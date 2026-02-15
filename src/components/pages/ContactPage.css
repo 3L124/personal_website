@@ -35,16 +35,18 @@
 
 .contact-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1.25rem;
+  justify-content: center;
+  gap: 0.75rem;
   background: rgba(220, 232, 195, 0.7);
   border: 1.5px solid rgba(15, 61, 46, 0.7);
   border-radius: 8px;
-  padding: 1.25rem 1.5rem;
+  padding: 1rem;
   text-decoration: none;
   color: inherit;
   transition: all 0.2s ease;
-  max-width: 400px;
+  max-width: 280px;
   width: 100%;
   box-sizing: border-box;
   box-shadow: 0 0 10px rgba(0, 66, 37, 0.2);
@@ -64,14 +66,18 @@
 }
 
 .contact-icon {
-  font-size: 1.75rem;
-  width: 48px;
-  height: 48px;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgba(247, 251, 162, 0.1);
-  border-radius: 10px;
+  border-radius: 8px;
+}
+
+.contact-info {
+  text-align: center;
 }
 
 .contact-info h3 {

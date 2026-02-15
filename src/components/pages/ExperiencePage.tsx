@@ -32,16 +32,6 @@ const experiences: Experience[] = [
   },
   {
     id: 2,
-    company: "Solve Data IO",
-    role: "Business Analyst",
-    period: "Jul 2022 - May 2023",
-    description:
-      "Designed and deployed interactive Amazon QuickSight dashboards to analyse marketing performance and user engagement. Wrote complex PostgreSQL queries to extract actionable insights and consulted with clients to translate business requirements into data-driven reporting solutions.",
-    languages: ["SQL", "Python"],
-    techStacks: ["PostgreSQL", "Amazon QuickSight", "Data Visualization", "Analytics"]
-  },
-  {
-    id: 3,
     company: "New Jersey City University",
     role: "Athletics Operations Assistant",
     period: "Aug 2023 - Jun 2024",
@@ -51,10 +41,20 @@ const experiences: Experience[] = [
     techStacks: ["MySQL", "Excel Macros", "Data Analysis", "Workflow Optimization"]
   },
   {
+    id: 3,
+    company: "Solve Data IO",
+    role: "Business Analyst",
+    period: "Jul 2022 - May 2023",
+    description:
+      "Designed and deployed interactive Amazon QuickSight dashboards to analyse marketing performance and user engagement. Wrote complex PostgreSQL queries to extract actionable insights and consulted with clients to translate business requirements into data-driven reporting solutions.",
+    languages: ["SQL", "Python"],
+    techStacks: ["PostgreSQL", "Amazon QuickSight", "Data Visualization", "Analytics"]
+  },
+  {
   id: 4,
   company: "Lululemon",
   role: "Educator (Sales Associate)",
-  period: "2021 - 2022",
+  period: "2018 - 2020",
   description:
     "Delivered high-quality customer experiences in a fast-paced retail environment, exceeding sales and engagement targets. Developed strong communication and consultative selling skills while educating customers on technical product features and brand values. Collaborated with team members to maintain visual standards and drive store performance.",
   languages: [],
