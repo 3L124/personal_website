@@ -57,7 +57,7 @@
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   border: 1.5px solid rgba(15, 61, 46, 0.7);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
   color: #004225;
@@ -99,4 +99,55 @@
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+.skillsSection {
+  padding: 2rem 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.skillsTitle {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+  color: #004225;
+  opacity: 0.8;
+  letter-spacing: 0.05em;
+}
+
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.skillCard {
+  background: rgba(234, 242, 217, 0.7);
+  border: 1.5px solid rgba(15, 61, 46, 0.7);
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.skillCard:hover {
+  background: #0F3D2E;
+  border-color: #0F3D2E;
+  transform: translateY(-2px);
+}
+
+.skillCard:hover .skillName {
+  color: #F8FAF5;
+}
+
+.skillName {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #004225;
+  transition: color 0.2s ease;
 }

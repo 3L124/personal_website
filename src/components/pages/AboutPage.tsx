@@ -6,7 +6,7 @@ export default function AboutPage() {
       <h1 className={styles.title}>About Me</h1>
       
       <section className={`${styles.section} content-card`}>
-        <h2 className={styles.sectionTitle}>The Basics</h2>
+        <h2 className={styles.sectionTitle}>📌 The Basics</h2>
         <p className={styles.text}>
           I'm a Kiwi, born and raised, with Filipino roots. 
           My mum works in telecommunications, which meant our house 
@@ -57,7 +57,7 @@ export default function AboutPage() {
       </section>
 
       <section className={`${styles.section} content-card`}>
-        <h2 className={styles.sectionTitle}>📹 Education</h2>
+        <h2 className={styles.sectionTitle}>🎓 Education</h2>
         <p className={styles.text}>
           My academic path wasn't linear — it was intentional, just not predictable.
         </p>
@@ -79,21 +79,6 @@ export default function AboutPage() {
         <p className={styles.text}>
           I graduated with a degree in Computer Science and a minor in Mathematics — 
           proof that the non-linear route can still lead exactly where you're meant to go.
-        </p>
-      </section>
-
-      <section className={`${styles.section} content-card`}>
-        <h2 className={styles.sectionTitle}>💻 The Tech Stuff</h2>
-        <p className={styles.text}>
-          I code. Mostly frontend stuff — making things look pretty and 
-          actually work is kind of my jam. This website? Built with React, 
-          because why not learn something new when you can stress yourself 
-          out simultaneously?
-        </p>
-        <p className={styles.text}>
-          I'm always picking up new skills, breaking things, and occasionally 
-          fixing them again. If you want to collaborate on something or just 
-          chat tech, hit me up on the contact page!
         </p>
       </section>
 

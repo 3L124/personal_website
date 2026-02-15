@@ -9,7 +9,7 @@ export default function ProjectsPage() {
         <div className="project-badge">⭐ Featured</div>
         <h2 className="project-name">This Portfolio Website</h2>
         <p className="project-description">
-          Yeah, I'm starting with the meta one. This website itself is a project! 
+          This website itself is a project! 
           Built from scratch because I wanted to prove to myself I could learn 
           something new.
         </p>
@@ -23,6 +23,28 @@ export default function ProjectsPage() {
           <span className="coming-soon">GitHub link coming soon...</span>
         </div>
       </section>
+
+      <section className="project-card featured content-card">
+        <div className="project-badge">⌛ In progress</div>
+        <h2 className="project-name">Website for Eftpos2Go</h2>
+        <p className="project-description">
+          Designing and developing a full-stack website for a New Zealand-based payments business. 
+          Built both the frontend and backend architecture, including secure user authentication, 
+          role-based access control, and database integration. The system supports user login, 
+          protected routes, and dynamic content management backed by a SQL database.
+        </p>
+        <div className="project-tags">
+          <span className="tag">React</span>
+          <span className="tag">TypeScript</span>
+          <span className="tag">Node.js</span>
+          <span className="tag">Authentication</span>
+          <span className="tag">SQL Server</span>
+        </div>
+        <div className="project-links">
+          <span className="coming-soon">GitHub link coming soon...</span>
+        </div>
+      </section>
+
 
       <section className="more-coming content-card">
         <div className="more-content">

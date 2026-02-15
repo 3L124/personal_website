@@ -30,6 +30,9 @@ export default function Sidebar() {
               <Link to="/about" className={isActive('/about') ? 'active' : ''}>
                 About
               </Link>
+              <Link to="/experience" className={isActive('/experience') ? 'active' : ''}>
+                Experience
+              </Link>
               <Link to="/projects" className={isActive('/projects') ? 'active' : ''}>
                 Projects
               </Link>

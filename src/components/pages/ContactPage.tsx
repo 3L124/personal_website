@@ -7,8 +7,7 @@ export default function ContactPage() {
       
       <div className="content-card">
         <p className="contact-intro">
-          Want to connect? Collaborate? Or just want to say hi? 
-          I'm all ears (well, eyes — you're reading this).
+          Want to connect? Collaborate? Find me down below...
         </p>
 
         <div className="contact-options">
@@ -50,12 +49,6 @@ export default function ContactPage() {
           </a>
         </div>
 
-        <div className="cta-box">
-          <p className="cta-text">
-            Seriously, don't be a stranger. Drop a message, share an idea, 
-            or just tell me about your day. I'm here for it. ✨
-          </p>
-        </div>
       </div>
 
       <footer className="contact-footer">

@@ -1,5 +1,22 @@
 import styles from './HomePage.module.css';
 
+const skills = [
+  { name: "React", category: "frontend" },
+  { name: "TypeScript", category: "frontend" },
+  { name: "JavaScript", category: "language" },
+  { name: "Python", category: "language" },
+  { name: "SQL", category: "language" },
+  { name: "VB", category: "language" },
+  { name: "C", category: "language" },
+  { name: "Node.js", category: "backend" },
+  { name: "PostgreSQL", category: "database" },
+  { name: "SQL Server", category: "database" },
+  { name: "MySQL", category: "database" },
+  { name: "AWS", category: "cloud" },
+  { name: "Git", category: "tool" },
+  { name: "Azure", category: "tool" },
+];
+
 export default function HomePage() {
   return (
     <main className={styles.page}>
@@ -17,7 +34,19 @@ export default function HomePage() {
         </div>
       </div>
 
+      <section className={styles.skillsSection}>
+        <h2 className={styles.slogan}>Skills & Tools</h2>
+        <div className={styles.skillsGrid}>
+          {skills.map((skill) => (
+            <div key={skill.name} className={styles.skillCard}>
+              <span className={styles.skillName}>{skill.name}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <div className="content-card">
+        <div className={styles.paragraphs}>Engineering is what I do. This is who I am.</div>
         <div className={styles.instagramEmbed}>
           <iframe 
             src="https://www.instagram.com/p/DO2S8gZAVk8/embed" 

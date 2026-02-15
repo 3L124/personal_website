@@ -1,0 +1,442 @@
+.experience-page {
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+.experience-title {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 3rem 0;
+  letter-spacing: -0.02em;
+  color: #004225;
+  text-shadow: 0 0 10px #004225;
+}
+
+.experience-section {
+  margin-bottom: 4rem;
+}
+
+.experience-section:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 2rem 0;
+  color: #004225;
+  opacity: 0.8;
+  text-align: left;
+  padding-left: 3.5rem;
+}
+
+.experience-list {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.experience-list::before {
+  content: '';
+  position: absolute;
+  left: 1.5rem;
+  top: 2rem;
+  bottom: 2rem;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, #004225 10%, #004225 90%, transparent);
+}
+
+.experience-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-marker {
+  flex-shrink: 0;
+  width: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.experience-dot {
+  width: 12px;
+  height: 12px;
+  background: #004225;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 66, 37, 0.5);
+}
+
+.experience-line {
+  width: 1px;
+  flex: 1;
+  background: rgba(15, 61, 46, 0.3);
+  margin-top: 0.75rem;
+}
+
+.experience-item:last-child .experience-line {
+  display: none;
+}
+
+.experience-card {
+  flex: 1;
+  background: rgba(234, 242, 217, 0.7);
+  border: 1.5px solid rgba(15, 61, 46, 0.7);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 15px rgba(0, 66, 37, 0.15);
+  position: relative;
+}
+
+.experience-card::before {
+  content: '';
+  position: absolute;
+  left: -1.25rem;
+  top: 1.25rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-left: 1px solid rgba(15, 61, 46, 0.4);
+  border-bottom: 1px solid rgba(15, 61, 46, 0.4);
+  transform: rotate(45deg);
+}
+
+.experience-card:hover {
+  background: #0F3D2E;
+  color: #F8FAF5;
+  border-color: #0F3D2E;
+  transform: translateX(6px);
+  box-shadow: 0 4px 20px rgba(0, 66, 37, 0.3);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.experience-role {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #004225;
+}
+
+.experience-card:hover .experience-role {
+  color: #F8FAF5;
+}
+
+.experience-period {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.75rem;
+  color: #004225;
+  opacity: 0.8;
+}
+
+.experience-card:hover .experience-period {
+  color: #F8FAF5;
+}
+
+.experience-company {
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  color: #004225;
+  opacity: 0.85;
+}
+
+.experience-card:hover .experience-company {
+  color: #F8FAF5;
+}
+
+.experience-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  color: #004225;
+  opacity: 0.9;
+}
+
+.experience-card:hover .experience-description {
+  color: #F8FAF5;
+}
+
+.experience-tokens {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.token-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.token-label {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #004225;
+  opacity: 0.7;
+}
+
+.experience-card:hover .token-label {
+  color: #F8FAF5;
+}
+
+.tokens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.token {
+  background: transparent;
+  border: 1.5px solid rgba(15, 61, 46, 0.7);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: #004225;
+  font-family: 'VCR OSD Mono', monospace;
+  transition: all 0.2s ease;
+}
+
+.experience-card:hover .token {
+  border-color: rgba(248, 250, 245, 0.6);
+  color: #F8FAF5;
+}
+
+@media (max-width: 768px) {
+  .experience-list::before {
+    left: 1rem;
+  }
+
+  .experience-item {
+    gap: 1rem;
+  }
+
+  .experience-marker {
+    width: 2rem;
+  }
+
+  .experience-dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .experience-card::before {
+    display: none;
+  }
+
+  .experience-card:hover {
+    transform: translateY(-4px);
+  }
+}
+
+/* Leadership Section - Different style */
+.leadership-list {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.leadership-list::before {
+  content: '';
+  position: absolute;
+  left: 1.5rem;
+  top: 2rem;
+  bottom: 2rem;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, #0F3D2E 10%, #0F3D2E 90%, transparent);
+}
+
+.leadership-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.leadership-item:last-child {
+  margin-bottom: 0;
+}
+
+.leadership-marker {
+  flex-shrink: 0;
+  width: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.leadership-diamond {
+  width: 10px;
+  height: 10px;
+  background: #0F3D2E;
+  transform: rotate(45deg);
+  box-shadow: 0 0 8px rgba(15, 61, 46, 0.5);
+}
+
+.leadership-line {
+  width: 1px;
+  flex: 1;
+  background: rgba(15, 61, 46, 0.25);
+  margin-top: 0.75rem;
+}
+
+.leadership-item:last-child .leadership-line {
+  display: none;
+}
+
+.leadership-card {
+  flex: 1;
+  background: rgba(15, 61, 46, 0.08);
+  border: 1.5px solid rgba(15, 61, 46, 0.5);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.leadership-card::before {
+  content: '';
+  position: absolute;
+  left: -1.25rem;
+  top: 1.25rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-left: 1px solid rgba(15, 61, 46, 0.4);
+  border-bottom: 1px solid rgba(15, 61, 46, 0.4);
+  transform: rotate(45deg);
+}
+
+.leadership-card:hover {
+  background: rgba(15, 61, 46, 0.15);
+  border-color: #0F3D2E;
+  transform: translateX(6px);
+}
+
+.leadership-card:hover .leadership-role,
+.leadership-card:hover .leadership-org,
+.leadership-card:hover .leadership-description,
+.leadership-card:hover .token-label {
+  color: #0F3D2E;
+}
+
+.leadership-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.leadership-role {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #0F3D2E;
+}
+
+.leadership-period {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.75rem;
+  color: #0F3D2E;
+  opacity: 0.8;
+}
+
+.leadership-org {
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  color: #0F3D2E;
+  opacity: 0.85;
+}
+
+.leadership-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  color: #0F3D2E;
+  opacity: 0.9;
+}
+
+.leadership-tokens {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.leadership-card .token-label {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #0F3D2E;
+  opacity: 0.7;
+}
+
+.leadership-card .token {
+  background: transparent;
+  border: 1.5px solid rgba(15, 61, 46, 0.5);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: #0F3D2E;
+  font-family: 'VCR OSD Mono', monospace;
+  transition: all 0.2s ease;
+}
+
+.leadership-card:hover .token {
+  border-color: #0F3D2E;
+}
+
+@media (max-width: 768px) {
+  .leadership-list::before {
+    left: 1rem;
+  }
+
+  .leadership-item {
+    gap: 1rem;
+  }
+
+  .leadership-marker {
+    width: 2rem;
+  }
+
+  .leadership-diamond {
+    width: 8px;
+    height: 8px;
+  }
+
+  .leadership-card::before {
+    display: none;
+  }
+
+  .leadership-card:hover {
+    transform: translateY(-4px);
+  }
+}
