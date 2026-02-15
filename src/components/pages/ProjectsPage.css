@@ -1,0 +1,166 @@
+.projects-page {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.projects-title {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 2.5rem 0;
+  letter-spacing: -0.02em;
+  color: #004225;
+  text-shadow: 0 0 10px #004225;
+}
+
+.project-card {
+  background: rgba(234, 242, 217, 0.7);
+  border: 1.5px solid rgba(15, 61, 46, 0.7);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0, 66, 37, 0.2);
+}
+
+.project-card:hover {
+  background: #0F3D2E;
+  color: #F8FAF5;
+  border: 2px solid #0F3D2E;
+  transform: translateY(-4px);
+}
+
+.project-card.featured {
+  background: rgba(234, 242, 217, 0.7);;
+}
+
+.project-badge {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background: #004225;
+  color: #000000;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: 'VCR OSD Mono', monospace;
+}
+
+.project-name {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  color: #004225;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+  color: #004225;
+}
+
+.project-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  background: transparent;
+  border: 1.5px solid rgba(15, 61, 46, 0.7);
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: #004225;
+  font-family: 'VCR OSD Mono', monospace;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.coming-soon {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.6rem;
+  opacity: 0.7;
+  font-style: italic;
+  color: #004225;
+}
+
+.more-coming {
+  border: 1.5px dashed rgba(15, 61, 46, 0.7);
+  border-radius: 8px;
+  padding: 3rem 2rem;
+  text-align: center;
+  background: rgba(234, 242, 217, 0.7);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.more-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.more-emoji {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.more-content p {
+  margin: 0;
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #004225;
+}
+
+.more-subtitle {
+  font-family: 'VCR OSD Mono', monospace;
+  font-weight: 400 !important;
+  font-size: 0.6rem;
+  opacity: 0.7;
+  max-width: 400px;
+  color: #004225;
+}
+
+.projects-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1.5px solid rgba(15, 61, 46, 0.7);
+  font-style: italic;
+  opacity: 0.7;
+  color: #004225;
+}
+
+.projects-footer a {
+  color: #004225;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.projects-footer a:hover {
+  text-shadow: 0 0 10px #004225;
+}

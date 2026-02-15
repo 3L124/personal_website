@@ -1,0 +1,125 @@
+.contact-page {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.contact-title {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 1.5rem 0;
+  letter-spacing: -0.02em;
+  color: #004225;
+  text-shadow: 0 0 10px #004225;
+}
+
+.contact-intro {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.7rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+  opacity: 0.9;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #004225;
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  background: rgba(220, 232, 195, 0.7);
+  border: 1.5px solid rgba(15, 61, 46, 0.7);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 66, 37, 0.2);
+}
+
+.contact-card:hover {
+  background: #0F3D2E;
+  color: #F8FAF5;
+  border: 2px solid #0F3D2E;
+  transform: translateY(-4px);
+}
+
+.contact-icon {
+  font-size: 1.75rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(247, 251, 162, 0.1);
+  border-radius: 10px;
+}
+
+.contact-info h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #004225;
+  font-family: 'VCR OSD Mono', monospace;
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 0.65rem;
+  opacity: 0.7;
+  color: #004225;
+  font-family: 'VCR OSD Mono', monospace;
+}
+
+.cta-box {
+  background: rgba(247, 251, 162, 0.1);
+  border: 1.5px solid rgba(15, 61, 46, 0.7);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 15px rgba(0, 66, 37, 0.2);
+}
+
+.cta-text {
+  margin: 0;
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.65rem;
+  line-height: 1.7;
+  text-align: center;
+  font-style: italic;
+  color: #004225;
+}
+
+.contact-footer {
+  padding-top: 2rem;
+  border-top: 1.5px solid rgba(15, 61, 46, 0.7);
+  font-style: italic;
+  opacity: 0.7;
+  color: #004225;
+}
+
+.contact-footer a {
+  color: #004225;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-footer a:hover {
+  text-shadow: 0 0 10px #004225;
+}
