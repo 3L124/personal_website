@@ -41,7 +41,7 @@ export default function ProjectsPage() {
           <span className="tag">SQL Server</span>
         </div>
         <div className="project-links">
-          <a href="https://github.com/3L124/personal_website" target="_blank" rel="noopener noreferrer" className="project-link">View on GitHub ↗</a>
+          <span className="coming-soon">GitHub link coming soon...</span>
         </div>
       </section>
 
