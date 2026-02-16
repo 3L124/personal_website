@@ -20,7 +20,7 @@ export default function ProjectsPage() {
           <span className="tag">CSS Modules</span>
         </div>
         <div className="project-links">
-          <span className="coming-soon">GitHub link coming soon...</span>
+          <a href="https://github.com/3L124/personal_website" target="_blank" rel="noopener noreferrer" className="project-link">View on GitHub ↗</a>
         </div>
       </section>
 
@@ -41,7 +41,7 @@ export default function ProjectsPage() {
           <span className="tag">SQL Server</span>
         </div>
         <div className="project-links">
-          <span className="coming-soon">GitHub link coming soon...</span>
+          <a href="https://github.com/3L124/personal_website" target="_blank" rel="noopener noreferrer" className="project-link">View on GitHub ↗</a>
         </div>
       </section>
 

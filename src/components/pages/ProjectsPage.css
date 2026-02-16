@@ -98,6 +98,19 @@
   justify-content: center;
 }
 
+.project-link {
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.8rem;
+  color: #004225;
+  text-decoration: none;
+  font-weight: 600;
+  transition: text-shadow 0.2s ease;
+}
+
+.project-link:hover {
+  text-shadow: 0 0 10px #004225;
+}
+
 .coming-soon {
   font-family: 'VCR OSD Mono', monospace;
   font-size: 0.7rem;
